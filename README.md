@@ -118,7 +118,7 @@ DevOps Capstone Project
 
 This repository contains the **Terraform configuration** for provisioning the AWS infrastructure of the **SOS Online Shop** e-commerce platform, a capstone project for the **MSIT program at University of the People**.
 
-## 📌 Project Context
+## Project Context
 SOS Online Shop is a small Cameroonian e-commerce business seeking to modernize its digital presence. This infrastructure enables:
 - Automated deployment via CI/CD
 - High availability (target: 99.2% uptime)
@@ -132,7 +132,7 @@ SOS Online Shop is a small Cameroonian e-commerce business seeking to modernize 
 - **Storage**: S3 (for static assets)
 - **Monitoring**: CloudWatch Log Group
 
-## 🔄 CI/CD Pipeline
+## CI/CD Pipeline
 Deployed automatically via **GitHub Actions** on every push to `main`.
 
-## 📂 Structure
+## Structure
