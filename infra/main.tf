@@ -139,15 +139,3 @@ resource "aws_instance" "web" {
   depends_on = [aws_internet_gateway.gw]
 }
 
-############################################
-# CloudWatch Log Group (basic monitoring)
-############################################
-resource "aws_cloudwatch_log_group" "web_logs" {
-  name              = "/aws/ec2/${var.project_name}-web"
-  retention_in_days = 7
-
-  tags = {
-    Project     = var.project_name
-    Environment = var.environment
-  }
-}
